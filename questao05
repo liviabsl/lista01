@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao05(void){
+        float salarioBase, salarioBruto, salarioFinal;
+        int dependentes;
+        printf("Salario base: ");
+        scanf("%f", &salarioBase);
+        printf("Quantidade de dependentes: ");
+        scanf("%d", &dependentes);
+      
+        salarioBruto = salarioBase + (dependentes * 32);
+        salarioBruto = salarioBruto - (salarioBruto-27.50)/100;
+        printf("O salário final é: %f\n", salarioBruto);
+   }
+      
+      questao05();
+    
+}
