@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao08(void){
+        float h, s;
+        printf("Velocidade em km/h: ");
+        scanf("%f", &h);
+    
+        s = h/3.6;
+        printf("A velocidade em m/s é: %f\n", s);
+   }
+      
+      questao08();
+    
+}
