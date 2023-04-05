@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao03(void){
+        float nota1, nota2, peso1, peso2, resultado;
+        printf("Nota 1: ");
+        scanf("%f", &nota1);
+        printf("Peso 1: ");
+        scanf("%f", &peso1);
+        printf("Nota 2: ");
+        scanf("%f", &nota2);
+        printf("Peso 2: ");
+        scanf("%f", &peso2);
+        resultado = (nota1*peso1 + nota2*peso2)/(peso1+peso2);
+        printf("O resultado da média ponderada dos valores é: %f\n", resultado);
+   }
+      
+      questao03();
+    
+}
