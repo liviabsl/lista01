@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao04(void){
+        float salarioInicial, porcentagem, salarioFinal;
+        printf("Salario inicial: ");
+        scanf("%f", &salarioInicial);
+        printf("Porcentagem de aumento ");
+        scanf("%f", &porcentagem);
+      
+        salarioFinal = salarioInicial + (salarioInicial * porcentagem / 100);
+        printf("O salário final é: %f\n", salarioFinal);
+   }
+      
+      questao04();
+    
+}
