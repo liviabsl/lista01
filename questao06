@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao06(void){
+        float valorAntigo, valorNovo, diferenca;
+        printf("Valor antigo: ");
+        scanf("%f", &valorAntigo);
+        printf("Valor novo: ");
+        scanf("%f", &valorNovo);
+      
+        diferenca = ((valorNovo-valorAntigo)/valorAntigo) * 100;
+     
+        printf("O aumento da porcentagem foi de: %f\n", diferenca);
+   }
+      
+      questao06();
+    
+}
