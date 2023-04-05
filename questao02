@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao02(void){
+        float numero1, numero2, numero3, numero4, soma, divisao;
+        printf("Numero 1: ");
+        scanf("%f", &numero1);
+        printf("Numero 2: ");
+        scanf("%f", &numero2);
+        printf("Numero 3: ");
+        scanf("%f", &numero3);
+        printf("Numero 4: ");
+        scanf("%f", &numero4);
+        soma = numero1 + numero2 +numero3 + numero4;
+        divisao = soma/4;
+        printf("O resultado da média dos valores é: %f\n", divisao);
+   }
+      
+      questao02();
+    
+}
