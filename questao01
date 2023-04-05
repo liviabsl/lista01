@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao01(void){
+        int numero1, numero2, numero3, soma;
+        printf("Numero 1: ");
+        scanf("%d", &numero1);
+        printf("Numero 2: ");
+        scanf("%d", &numero2);
+        printf("Numero 3: ");
+        scanf("%d", &numero3);
+        soma = numero1 + numero2 +numero3;
+        printf("numero 1 + numero 2 + numero 3 = %d\n", soma);
+   }
+      
+      questao01();
+    
+}
