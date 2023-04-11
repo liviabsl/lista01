@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao16(void){
+        float salarioBruto, salarioLiquido;
+        printf("Salario bruto: ");
+        scanf("%f", &salarioBruto);
+     
+        
+        if(salarioBruto < 2000){
+                salarioLiquido = salarioBruto - salarioBruto*0.10;
+        }
+        else{
+            salarioLiquido = salarioBruto - salarioBruto*0.20;
+        }
+        
+        printf("O salario liquido é %f", salarioLiquido);
+       
+        
+   }
+      
+      questao16();
+    
+}
