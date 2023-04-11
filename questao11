@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao11(void){
+        float numero;
+        printf("Numero: ");
+        scanf("%f", &numero);
+        
+        if(numero>100 && numero<500){
+            printf("O numero %f está entre 100 e 500", numero);
+        }
+       
+        else{
+            printf("O numero %f não está entre 100 e 500", numero);
+        }
+        
+   }
+      
+      questao11();
+    
+}
