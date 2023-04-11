@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao14(void){
+        int numero;
+        printf("Numero: ");
+        scanf("%d", &numero);
+        
+        
+        if(numero%2 == 0){
+                printf("Seu numero é par");
+        }
+       
+        else{
+            printf("Seu numero é impar");
+        }
+        
+   }
+      
+      questao14();
+    
+}
