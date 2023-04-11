@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao17(void){
+        float valorCompra, valorVenda;
+        printf("Valor compra: ");
+        scanf("%f", &valorCompra);
+     
+        
+        if(valorCompra < 200){
+                valorVenda = valorCompra + valorCompra*0.5;
+        }
+        else{
+            valorVenda = valorCompra + valorCompra*0.3;
+        }
+        
+        printf("O valor de venda é %f", valorVenda);
+       
+        
+   }
+      
+      questao17();
+    
+}
