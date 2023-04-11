@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao13(void){
+        int numero;
+        printf("Numero: ");
+        scanf("%d", &numero);
+        
+        
+        if(numero%5 == 0){
+                printf("Seu numero e divisivel por 5");
+        }
+       
+        else{
+            printf("Seu numero nao e divisivel por 5");
+        }
+        
+   }
+      
+      questao13();
+    
+}
