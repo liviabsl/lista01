@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao20(void){
+        int numero1, numero2, numero3, maior;
+        printf("Numero 1: ");
+        scanf("%d", &numero1);
+        printf("Numero 2: ");
+        scanf("%d", &numero2);
+        printf("Numero 3: ");
+        scanf("%d", &numero3);
+        
+        
+        if(numero1 > numero2 && numero1> numero3){
+                maior = numero1;
+        }
+        else if(numero2 > numero1 && numero2>numero3){
+            maior=numero2;
+        }
+        else{
+            maior=numero3;
+        }
+        
+        printf("O numero %d é maior", maior);
+       
+        
+   }
+      
+      questao20();
+    
+}
