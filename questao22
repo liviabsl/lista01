@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao22(void){
+        int quant;
+        float votos;
+        char cidade;
+       
+        printf("Quantidade de moradores: ");
+        scanf("%d", &quant);
+        printf("Quantidade de votos do candidato mais votado: ");
+        scanf("%f", &votos);
+        
+        if(quant<200000){
+            printf("Cidade muito pequena. Nao tera 2 turno: ");
+        }
+       
+       else if(quant>200000){
+           if(votos<quant/2){
+               printf("Terá 2 turno");
+           }
+           else{
+               printf("Não terá 2 turno");
+           }
+       }
+       
+        
+   }
+      
+      questao22();
+    
+}
