@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+   void questao18(void){
+        float nota1, nota2;
+        printf("nota1: ");
+        scanf("%f", &nota1);
+        printf("nota2: ");
+        scanf("%f", &nota2);
+     
+        
+        if((nota1+nota2)/2 >= 7 ){
+                printf("Aprovado!");
+        }
+        else if((nota1+nota2)/2 < 3 ){
+                printf("Reprovado!");
+        }
+        else{
+            printf("Prova final!");
+        }
+      
+   }
+      
+      questao18();
+    
+}
